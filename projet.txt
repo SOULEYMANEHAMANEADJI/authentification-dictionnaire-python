@@ -1,0 +1,15 @@
+Contexte :
+
+Une entreprise de la place veut mettre une université numérique via son site web.
+Dans le cadre d'un test pour le choix des développeurs à recruter une partie du cahier de charge est donné en plusieurs points.
+
+---- Authentification
+
+1. On exige que les utilisateurs saisissent un nom d'utilisateur et un mot de passe en plus leur email pour s'inscrire.
+	a. Ecrire un programme qui recueille les informations pour l'inscription sur le site. Les utilisateurs inscrits seront enregistrés dans un dictionnaire.
+	b. Ecrire un programme qui vérifie la validité du mot de passe saisi suivant les critères de mot de passe fort.
+	Tant que la saisie du mot de passe est invalide, inviter l'utilisateur à saisir à nouveau un mot de passe, sinon afficherun message de succès.
+	L'utilisateur a droit à 3 tentatives sinon il devra attendre 3 minutes avant de pouvoir faire une nouvelle tentative.
+2. Forcer l'utilisateur à changer de mot de passe chaque trois mois.
+	a. Ecrire un script système qui demandera à l'utilisateur de changer de mot de passe.
+	b. Crypter les mots de passe avec le système de César.
